@@ -1,19 +1,19 @@
 @font-face {
     font-family: 'Poppins';
-    src: url('../Portafolio/font/Poppins-Regular.ttf') format('truetype');
+    src: url('../font/Poppins-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
   }
 
   @font-face {
     font-family: 'Poppins Bold';
-    src: url('../Portafolio/font/Poppins-Bold.ttf') format('truetype');
+    src: url('../font/Poppins-Bold.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
   }
 
 body{
-    background-image: url('../Portafolio/img/FondoBitácoras.jpg');
+    background-image: url('../img/FondoBitácoras.jpg');
     background-color: #ffe4e6;
     font-family: 'Poppins', arial;
     margin: 0;
