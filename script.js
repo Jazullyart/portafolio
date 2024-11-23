@@ -1,22 +1,3 @@
-// Mostrar el botón cuando se baja en la página
-const scrollToTopButton = document.getElementById("irarriba");
-
-window.addEventListener("scroll", () => {
-  if (window.scrollY > 100) {
-    scrollToTopButton.classList.add("show");
-  } else {
-    scrollToTopButton.classList.remove("show");
-  }
-});
-
-// Funcionalidad para llevar al inicio de la página
-scrollToTopButton.addEventListener("click", () => {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth",
-  });
-});
-
 //Proyectos
 
 var animeost = document.getElementById("animeost");
