@@ -1,0 +1,38 @@
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+
+.galeria-item {
+    position: relative;
+    display: inline-block;
+    background: #fff; /* Fondo blanco para simular el marco */
+    padding: 10px; /* Espacio que crea el efecto de borde */
+    border: 1px solid #000000; /* Línea fina alrededor del marco */
+    box-shadow: 3px 3px 0px rgb(0, 0, 0); /* Sombra para efecto tridimensional */
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.galeria-item span {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 12px;
+}
+
+.galeria-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.galeria-item:hover {
+    transform: scale(1.05);
+}

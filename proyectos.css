@@ -1,0 +1,101 @@
+.nav-proyectos  ul{
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-proyectos li{
+    background-color: white;
+    border: 1px solid #333;
+    box-shadow: 8px 5px 0px #333;
+    margin: 30px;
+    width: 15%;
+    text-align: center;
+}
+
+.nav-proyectos li a{
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-proyectos li a:hover{
+    background-color: #99FF99;
+    cursor: pointer;
+}
+
+hr{
+	border-top: 2px dashed #3333337c;
+    width: 50%;
+}
+
+#animeost, #juanga, #alytum, #viajemic, #laesc{
+    text-align: center;
+    margin: 1% 0 6% 0;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+}
+
+.sobre p{
+    width: 50%;
+    height: auto;
+    margin: 5%;
+    background-color: white;
+    border: 1px solid #333;
+    box-shadow: 5px 5px 0px #333;
+    padding: 2%;
+}
+
+.part{
+    text-align: center;
+    width: 50%;
+    margin: 5% auto 5% auto;
+    background-color: white;
+    border: 1px solid #333;
+    box-shadow: 5px 5px 0px #333;
+    padding: 2%;
+}
+
+.sobre img{
+    width: 20%;
+}
+
+.contenedor {
+    position: relative;
+  }
+  
+.msg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: white;
+    text-shadow: 2px 2px 0px #DD6C82;
+    font-weight: bold;
+  }
+  
+.contenedor img { 
+    width: 40%;
+    height: auto;
+    filter: blur(4px);
+  }
+
+  video{
+    width: 30%;
+    border: 8px solid white;
+    box-shadow: 4px 4px 0px #333;
+  }
