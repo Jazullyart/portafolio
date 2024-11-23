@@ -13,7 +13,7 @@
   }
 
 body{
-    background-image: url('../img/FondoBitácoras.jpg');
+    background-image: url('img/FondoBitácoras.jpg');
     background-color: #ffe4e6;
     font-family: 'Poppins', arial;
     margin: 0;
